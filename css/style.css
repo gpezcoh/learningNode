@@ -1,0 +1,58 @@
+html{
+    min-height:100%;
+    position:relative;
+    background-color: black;
+
+}
+
+body{
+    height:100%;
+    width:100%;
+}
+
+#container{
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    overflow:hidden;
+    z-index:-1;
+    background-color: black;
+}
+
+#start{
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    overflow:hidden;
+    z-index:-1;
+}
+
+#startButton{
+    position: relative;
+    top: 40%;
+    left: 40%;
+    width: 100px;
+    height: 100px;
+}
+
+#game{
+    height:80%;
+    position:absolute;
+    top: 10%;
+    left: 10%;
+    overflow:hidden;
+    z-index:-1;
+    background-color: white;
+    display: none;
+}
+
+#player{
+    z-index: 1;
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
