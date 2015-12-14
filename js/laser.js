@@ -2,6 +2,7 @@ function Laser(number,div){
 	this.available = 1;
 	this.number = number;
 	this.correspondingDiv = div;
+	this.interval;
 }
 
 function createLasers(){
